@@ -1,0 +1,81 @@
+class HM_HuntedGun extends BallLauncher;
+/*
+    config(user)
+    HideDropDown
+	CacheExempt;
+*/
+
+function ModifyPawn( float dt )
+{
+    /*
+    if ( Instigator.Weapon == self && Instigator.PlayerReplicationInfo.HasFlag != None)
+    {
+        if ( Instigator.Health < Instigator.HealthMax )
+        {
+            HealAccum += HealRate * dt;
+            if( HealAccum > 1 )
+            {
+                Instigator.Health = Min(Instigator.HealthMax, Instigator.Health + HealAccum);
+                HealAccum -= int(HealAccum);
+            }
+        }
+    }
+    */
+
+    if ( Instigator.Weapon != self)// && Instigator.PlayerReplicationInfo.HasFlag != None)
+    {
+        //xBombFlag(Instigator.PlayerReplicationInfo.HasFlag).SetHolder( Instigator.Controller );
+        Log("Giving flag to player");
+        //xBombFlag(true).SetHolder( Instigator.Controller );
+    }
+}
+
+defaultproperties
+{
+	bNoVoluntarySwitch=false
+	bNoInstagibReplace=true
+    bForceSwitch=true
+    bCanThrow=false
+    FireModeClass(0)=HM_HuntedGunShoot
+    FireModeClass(1)=HM_HuntedGunTarget
+    InventoryGroup=1
+    Mesh=mesh'Weapons.BallLauncher_1st'
+    ItemName="Hunted Gun"
+    BobDamping=2.2
+    PickupClass=None
+    EffectOffset=(X=30.0,Y=10.0,Z=-10.0)
+    DrawScale=0.4
+    PutDownAnim=PutDown
+    DisplayFOV=60
+ 	PlayerViewOffset=(X=11,Y=0,Z=0)
+    SmallViewOffset=(X=23,Y=6,Z=-6)
+    PlayerViewPivot=(Pitch=0,Roll=0,Yaw=0)
+    AttachmentClass=class'HM_HuntedGunAttachment'
+	bNotInPriorityList=true
+    PutDownAnimRate=2.5
+	PutDownTime=+0.2
+
+	SelectSound=Sound'WeaponSounds.ballgun_change'
+    PassAmbient=Sound'IndoorAmbience.Machinery36'
+    PassTargetLocked=Sound'WeaponSounds.BLockon1'
+    PassTargetLost=Sound'WeaponSounds.BSeekLost1'
+    SelectForce="ballgun_change"
+    PassTargetLockedForce="LockOn"
+    PassTargetLostForce="SeekLost"
+    HealRate=5.0
+
+    AIRating=+0.1
+    CurrentRating=+0.1
+
+	Priority=17
+
+	CenteredOffsetY=-5.0
+	CenteredYaw=-300
+	CenteredRoll=5000
+
+	CustomCrosshair=11
+	CustomCrosshairTextureName="Crosshairs.Hud.Crosshair_Bracket2"
+	CustomCrossHairColor=(R=255,G=255,B=0,A=255)
+	CustomCrossHairScale=+1.0
+	MinReloadPct=0.0
+}

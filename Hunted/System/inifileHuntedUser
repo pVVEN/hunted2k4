@@ -1,0 +1,1025 @@
+[DefaultPlayer]
+Name=Maggot
+Class=NG_Game.NG_Pawn
+Character=MantaUnit
+team=255
+Sex=M
+Voice=XGame.NightMaleVoice
+
+[Engine.Input]
+UnknownF5=
+UnknownF4=
+Unknown10F=
+Unknown10E=
+MouseW=
+UnknownE3=
+UnknownE2=
+UnknownE1=
+UnknownE0=
+UnknownDF=
+UnknownDA=
+UnknownD9=
+UnknownD8=
+UnknownC7=
+UnknownC6=
+Mouse8=
+Mouse7=
+Mouse6=
+Mouse5=
+Mouse4=
+Unicode=
+UnknownB8=
+UnknownB7=
+UnknownB6=
+UnknownB5=
+UnknownB4=
+UnknownB3=
+UnknownB2=
+UnknownB1=
+UnknownB0=
+UnknownAF=
+UnknownAE=
+UnknownAD=
+UnknownAC=
+UnknownAB=
+UnknownAA=
+UnknownA9=
+UnknownA8=
+UnknownA7=
+UnknownA6=
+UnknownA5=
+UnknownA4=
+Unknown9F=
+Unknown9E=
+Unknown9D=
+Unknown9C=
+Unknown9B=
+Unknown9A=
+Unknown99=
+Unknown98=
+Unknown97=
+Unknown96=
+Unknown95=
+Unknown94=
+Unknown93=
+Unknown92=
+Unknown8F=
+Unknown8E=
+Unknown8D=
+Unknown8C=
+Unknown8B=
+Unknown8A=
+Unknown89=
+Unknown88=
+NumPad6=
+NumPad5=
+NumPad4=
+NumPad3=
+NumPad2=
+NumPad1=
+NumPad0=
+Unknown5F=
+Unknown5E=
+Unknown5D=
+Unknown5C=
+Unknown5B=
+Unknown40=
+Unknown3F=
+Unknown3E=
+Unknown3D=
+Unknown3C=
+Unknown3B=
+Unknown3A=
+Unknown1F=
+Unknown1E=
+Unknown1D=
+Unknown1C=
+Unknown1A=
+Unknown19=
+Unknown18=
+Unknown17=
+Unknown16=
+Unknown15=
+Unknown0F=
+Unknown0E=
+Unknown0C=
+Unknown0B=
+Unknown0A=
+Unknown07=
+Unknown06=
+Unknown05=
+StrProperty0=
+Aliases[0]=(Command="Button bFire | Fire",Alias="Fire")
+Aliases[1]=(Command="Button bAltFire | AltFire",Alias="AltFire")
+Aliases[2]=(Command="Axis aBaseY  Speed=+300.0",Alias="MoveForward")
+Aliases[3]=(Command="Axis aBaseY  Speed=-300.0",Alias="MoveBackward")
+Aliases[4]=(Command="Axis aBaseX Speed=-40.0",Alias="TurnLeft")
+Aliases[5]=(Command="Axis aBaseX  Speed=+40.0",Alias="TurnRight")
+Aliases[6]=(Command="Axis aStrafe Speed=-300.0",Alias="StrafeLeft")
+Aliases[7]=(Command="Axis aStrafe Speed=+300.0",Alias="StrafeRight")
+Aliases[8]=(Command="Jump | Axis aUp Speed=+300.0",Alias="Jump")
+Aliases[9]=(Command="Button bDuck | Axis aUp Speed=-300.0",Alias="Duck")
+Aliases[10]=(Command="Button bLook",Alias="look")
+Aliases[11]=(Command="Toggle bLook",Alias="LookToggle")
+Aliases[12]=(Command="ActivateItem",Alias="InventoryActivate")
+Aliases[13]=(Command="NextItem",Alias="InventoryNext")
+Aliases[14]=(Command="PrevItem",Alias="InventoryPrevious")
+Aliases[15]=(Command="Axis aLookUp Speed=+25.0",Alias="LookUp")
+Aliases[16]=(Command="Axis aLookUp Speed=-25.0",Alias="LookDown")
+Aliases[17]=(Command="Button bSnapLevel",Alias="CenterView")
+Aliases[18]=(Command="Button bRun",Alias="Walking")
+Aliases[19]=(Command="Button bStrafe",Alias="Strafe")
+Aliases[20]=(Command="NextWeapon",Alias="NextWeapon")
+Aliases[21]=(Command="Button bFreeLook",Alias="FreeLook")
+Aliases[22]=(Command="ViewClass Pawn",Alias="ViewTeam")
+Aliases[23]=(Command="Button bTurnToNearest",Alias="TurnToNearest")
+Aliases[24]=(Command="Button bTurn180",Alias="Turn180")
+Aliases[25]=(Command="ShowScores|OnRelease ShowScores",Alias="ScoreToggle")
+Aliases[26]=(Command="InGameChat",Alias="IngameChat")
+Aliases[27]=(Command="ServerInfo",Alias="ServerInfo")
+Aliases[28]=(Command="Button bVoiceTalk",Alias="VoiceTalk")
+Aliases[29]=(Command="Speak Team|Button bVoiceTalk|OnRelease SpeakLast",Alias="ToggleTeamChat")
+Aliases[30]=(Command="Speak Local|Button bVoiceTalk|OnRelease SpeakLast",Alias="ToggleLocalChat")
+Aliases[31]=(Command="Speak Public|Button bVoiceTalk|OnRelease SpeakLast",Alias="TogglePublicChat")
+Aliases[32]=(Command="Axis aBaseX SpeedBase=100.0 DeadZone=0.1",Alias="SpaceFighter_JoyX")
+Aliases[33]=(Command="Axis aLookUp SpeedBase=100.0 DeadZone=0.1",Alias="SpaceFighter_JoyY")
+Aliases[34]=(Command="Axis aUp Speed=+300.0 | Axis aStrafe SpeedBase=300.0 DeadZone=0.1",Alias="SpaceFighter_JoyV")
+Aliases[35]=(Command="Axis aBaseY SpeedBase=300.0 DeadZone=0.1 Invert=-1",Alias="SpaceFighter_JoySlider1")
+Aliases[36]=(Command=,Alias=)
+Aliases[37]=(Command=,Alias=)
+Aliases[38]=(Command=,Alias=)
+Aliases[39]=(Command=,Alias=)
+0=SwitchWeapon 0
+1=SwitchWeapon 1
+2=SwitchWeapon 2
+3=SwitchWeapon 3
+4=SwitchWeapon 4
+5=SwitchWeapon 5
+6=SwitchWeapon 6
+7=SwitchWeapon 7
+8=SwitchWeapon 8
+9=SwitchWeapon 9
+F1=
+F2=
+F3=
+F4=
+F5=
+F6=basepath 0
+F7=basepath 1
+F8=shot
+F9=
+F10=
+F11=
+F12=
+F13=
+F14=
+F15=
+F16=
+F17=
+F18=
+F19=
+F20=
+F21=
+F22=
+F23=
+F24=
+A=StrafeLeft
+B=playvehiclehorn 0
+C=Duck
+D=StrafeRight
+E=ToggleBehindView
+F=
+G=
+H=
+I=
+j=
+K=
+L=
+M=
+N=
+O=taunt pthrust
+P=taunt asssmack
+Q=SwitchWeapon 10
+R=Reload | OnRelease ShotgunEndReload
+S=MoveBackward
+T=Talk
+U=
+V=ThrowWeapon
+W=MoveForward
+X=InGameChat
+Y=TeamTalk
+Z=SpeechMenuToggle
+Alt=
+Attn=
+Backslash=
+Backspace=
+Cancel=
+CapsLock=LookToggle
+Comma=
+CrSel=
+Ctrl=VoiceTalk
+Delete=
+Down=LookDown
+End=CenterView|ACTOR ALIGN SNAPTOFLOOR ALIGN=1
+Enter=
+Equals=
+Escape=ShowMenu
+ErEof=
+Execute=
+ExSel=
+GreySlash=
+GreyStar=
+GreyMinus=
+GreyPlus=
+Help=
+home=
+Insert=
+LControl=
+Left=TurnLeft
+LeftBracket=taunt throatcut
+LShift=
+Minus=
+NoName=
+None=
+OemClear=
+PA1=
+PageDown=
+PageUp=
+Pause=Pause
+Period=
+Play=
+Print=
+PrintScrn=
+RControl=
+Right=TurnRight
+RightBracket=taunt gesture_point
+RShift=
+ScrollLock=
+Select=
+Semicolon=
+Separator=
+Shift=Walking
+SingleQuote=ToggleRadarMap
+Slash=
+Space=Jump
+Tab=ShowScores
+Tilde=
+Up=LookUp
+Zoom=
+LeftMouse=Fire
+MiddleMouse=SwitchToLastWeapon
+RightMouse=AltFire
+MouseWheelDown=PrevWeapon
+MouseWheelUp=NextWeapon
+MouseX=Count bXAxis | Axis aMouseX Speed=2.0
+MouseY=Count bYAxis | Axis aMouseY Speed=2.0
+MouseZ=
+NumLock=
+NumPad7=
+NumPad8=
+NumPad9=
+NumPadPeriod=
+Joy1=
+Joy2=
+Joy3=
+Joy4=
+Joy5=
+Joy6=SwitchWeapon 2
+Joy7=SwitchWeapon 3
+Joy8=SwitchWeapon 4
+Joy9=SwitchWeapon 9
+Joy10=SwitchWeapon 0
+Joy11=
+Joy12=
+Joy13=
+Joy14=
+Joy15=
+Joy16=
+JoyX=Axis aStrafe SpeedBase=300.0 DeadZone=0.1
+JoyY=Axis aBaseY SpeedBase=300.0 DeadZone=0.1 Invert=-1
+JoyZ=
+JoyR=
+JoyU=
+JoyV=Axis aBaseX SpeedBase=2.0 DeadZone=0.4
+JoySlider1=Axis aLookUp SpeedBase=2.0 DeadZone=0.4
+JoySlider2=
+
+[Engine.Controller]
+Handedness=1.000000
+
+[Engine.PlayerController]
+TextToSpeechVoiceVolume=1.000000
+AnnouncerVolume=4
+DesiredFOV=90.000000
+FOVAngle=90.0
+MaxTimeMargin=0.000000
+TimeMarginSlack=0.001000
+bLookUpStairs=False
+bAlwaysMouseLook=True
+bKeyboardLook=True
+bAlwaysLevel=False
+ngSecretSet=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+TeamBeaconMaxDist=4000.000000
+TeamBeaconPlayerInfoMaxDist=1200.000000
+TeamBeaconTexture=TeamSymbols.TeamBeaconT
+TeamBeaconTeamColors[0]=(B=0,G=0,R=180,A=255)
+TeamBeaconTeamColors[1]=(B=200,G=80,R=80,A=255)
+TeamBeaconCustomColor=(B=0,G=255,R=255,A=255)
+TeamBeaconUseCustomColor=True
+MaxResponseTime=0.5
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AutoJoinMask=5
+bEnableInitialChatRoom=True
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+;AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+VoiceChatCodec=CODEC_48NB
+VoiceChatLANCodec=CODEC_96WB
+ScreenFlashScaling=1.000000
+DynamicPingThreshold=400.000000
+LastActiveChannel=
+ChatPassword=
+DefaultActiveChannel=
+AdminMenuClass=GUI2K4.RemoteAdmin
+bAutoTaunt=false
+bNoMatureLanguage=false
+bNoAutoTaunts=false
+bNoVoiceTaunts=false
+bNoVoiceMessages=false
+AnnouncerLevel=2
+bNoTextToSpeechVoiceMessages=true
+bOnlySpeakTeamText=false
+bSmallWeapons=true
+DefaultFOV=90.000000
+bNeverSwitchOnPickup=false
+bLandingShake=true
+bDynamicNetSpeed=True
+bSnapToLevel=False
+bEnableWeaponForceFeedback=False
+bEnablePickupForceFeedback=False
+bEnableDamageForceFeedback=False
+bEnableGUIForceFeedback=False
+
+[Engine.Pawn]
+Bob=0.006000
+bNoCoronas=True
+AmbientSoundScaling=0.800000
+bWeaponBob=False
+
+[Engine.Vehicle]
+bVehicleShadows=True
+bDesiredBehindView=True
+TPCamDistance=600.000000
+
+[Engine.Player]
+ConfiguredLanSpeed=20000
+ConfiguredInternetSpeed=10000
+
+[Engine.HUD]
+bSmallWeaponBar=true
+HudCanvasScale=1.000000
+bCrosshairShow=False
+CrosshairScale=1.000000
+CrosshairOpacity=1.000000
+CrosshairStyle=0
+CrossHairColor=(B=255,G=255,R=255,A=255)
+bMessageBeep=true
+bHideHUD=false
+bShowWeaponInfo=true
+bShowPersonalInfo=true
+bShowPoints=true
+bShowWeaponBar=True
+bShowPortrait=True
+bNoEnemyNames=False
+ConsoleMessageCount=4
+ConsoleFontSize=5
+MessageFontOffset=0
+HudScale=1.0
+HudOpacity=255
+
+[XGame.xDeathMessage]
+bNoConsoleDeathMessages=False
+
+[XInterface.GUIController]
+MenuMouseSens=1.25
+bModAuthor=True
+bExpert=false
+MaxSimultaneousPings=0
+DesignerMenu=GUIDesigner.PropertyManager
+bQuietMenu=False
+bNoToolTips=False
+bDesignModeToolTips=False
+bAutoRefreshBrowser=False
+bExpertMode=True
+bDesignMode=False
+bHighlightCurrent=True
+bDrawFullPaths=False
+
+[GUI2K4.UT2k4MainPage]
+TotalUnlockedCharacters=Malcolm;ClanLord;Xan
+TotalUnlockedCharacters=
+
+[GUI2K4.UT2K4GUIController]
+RequestDataMenu=GUI2K4.UT2K4GetDataMenu
+ArrayPropertyMenu=GUI2K4.GUIArrayPropPage
+DynArrayPropertyMenu=GUI2K4.GUIDynArrayPage
+FilterMenu=GUI2K4.UT2K4_FilterListPage
+MapVotingMenu=xVoting.MapVotingPage
+KickVotingMenu=xVoting.KickVotingPage
+MatchSetupMenu=xVoting.MatchConfigPage
+EditFavoriteMenu=GUI2K4.EditFavoritePage
+bFixedMouseSize=False
+NetworkMsgMenu=GUI2K4.UT2K4NetworkStatusMsg
+QuestionMenuClass=GUI2K4.GUI2K4QuestionPage
+MenuMouseSens=1.250000
+AutoLoad=(MenuClassName="GUI2K4.UT2K4InGameChat",bPreInitialize=True)
+
+[GUI2K4.SettingsTabs]
+bExpert=False
+
+[GUI2K4.UT2K4Browser_ServerListBox]
+FiltersPage=GUI2K4.SimpleFilterPage
+
+[GUI2K4.UT2K4ServerLoading]
+Backgrounds=NullGrav.Loading.loadingscreen1
+Backgrounds=NullGrav.Loading.loadingscreen2
+Backgrounds=NullGrav.Loading.loadingscreen3
+Backgrounds=NullGrav.Loading.loadingscreen4
+
+[DemoRecording]
+DemoMask=Demo%td
+
+[Screenshots]
+ShotMask=Shot%c
+ShotCount=0
+ShotDir=..\Screenshots
+
+[Engine.TextToSpeechAlias]
+RemoveCharacters=|:][}{^/\~()*
+Aliases=(MatchWords=("gg"),ReplaceWord="good game")
+Aliases=(MatchWords=("rofl","rotfl","rotflmao"),ReplaceWord="rolls on floor laughing!")
+Aliases=(MatchWords=("lol"),ReplaceWord="laughing out loud!")
+Aliases=(MatchWords=("thx"),ReplaceWord="thanks")
+Aliases=(MatchWords=("np"),ReplaceWord="no problem")
+Aliases=(MatchWords=(":)",":-)",":P"),ReplaceWord="smile")
+Aliases=(MatchWords=(";)",";-)",";P"),ReplaceWord="wink")
+Aliases=(MatchWords=("omg","omfg"),ReplaceWord="oh my god!")
+Aliases=(MatchWords=("ns"),ReplaceWord="nice shot")
+Aliases=(MatchWords=("hf"),ReplaceWord="have fun")
+Aliases=(MatchWords=("fc"),ReplaceWord="flag carrier")
+Aliases=(MatchWords=("ih"),ReplaceWord="incoming high")
+Aliases=(MatchWords=("iw"),ReplaceWord="incoming low")
+Aliases=(MatchWords=("ir"),ReplaceWord="incoming right")
+Aliases=(MatchWords=("il"),ReplaceWord="incoming left")
+Aliases=(MatchWords=("thx"),ReplaceWord="thanks")
+Aliases=(MatchWords=("gl"),ReplaceWord="good luck")
+Aliases=(MatchWords=("cya"),ReplaceWord="seeya")
+Aliases=(MatchWords=("gj"),ReplaceWord="good job")
+Aliases=(MatchWords=("ty"),ReplaceWord="thank you")
+Aliases=(MatchWords=("bbl"),ReplaceWord="be back later")
+Aliases=(MatchWords=("brb"),ReplaceWord="be right back")
+Aliases=(MatchWords=("bbiab"),ReplaceWord="be back in a bit")
+Aliases=(MatchWords=("woot","w00t"),ReplaceWord="woute")
+Aliases=(MatchWords=("woot!","w00t!"),ReplaceWord="woute!")
+Aliases=(MatchWords=("woohoo"),ReplaceWord="woo who")
+
+[UnrealGame.UnrealPlayer]
+CustomizedAnnouncerPack=
+MaxRecentServers=25
+bDontShowLoginMenu=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+CustomRewardAnnouncerPack=UnrealGame.MaleAnnouncer
+CustomStatusAnnouncerPack=UnrealGame.FemaleAnnouncer
+
+[GUI2K4.UT2K4IRC_Page]
+bIRCTextToSpeechEnabled=False
+
+[WindowPositions]
+GameLog=(X=88,Y=88,XL=512,YL=256)
+ActorProperties=(X=734,Y=59,XL=631,YL=645)
+VFToolbar=(X=3,Y=3,XL=446,YL=24)
+PictureButton=(X=692,Y=8,XL=22,YL=20)
+Surface Properties=(X=1172,Y=-51,XL=437,YL=267)
+WPropertyPage=(X=31163,Y=31688,XL=0,YL=0)
+Terrain Editing=(X=-8,Y=-51,XL=577,YL=426)
+SubTools=(X=12,Y=32,XL=542,YL=211)
+Matinee=(X=700,Y=-51,XL=394,YL=426)
+Build Options=(X=-8,Y=-51,XL=368,YL=430)
+BottomBar=(X=0,Y=0,XL=1292,YL=36)
+BottomBarStandard=(X=77,Y=710,XL=1023,YL=35)
+TopBar=(X=0,Y=0,XL=1360,YL=32)
+ThinScrollBar=(X=64,Y=0,XL=4,YL=663)
+EditorToolbar=(X=0,Y=0,XL=68,YL=663)
+Sound Browser=(X=4,Y=32,XL=0,YL=0)
+Music Browser=(X=4,Y=32,XL=0,YL=0)
+Group Browser=(X=4,Y=32,XL=0,YL=0)
+WSplitterContainer=(X=190,Y=817,XL=0,YL=0)
+WSplitter=(X=186,Y=817,XL=6,YL=0)
+WSplitterPane=(X=191,Y=817,XL=0,YL=0)
+LIPSinc Browser=(X=-8,Y=-51,XL=512,YL=384)
+Master Browser=(X=-8,Y=659,XL=160,YL=28)
+Texture Browser=(X=4,Y=742,XL=0,YL=0)
+StaticMeshProperties=(X=4,Y=821,XL=0,YL=0)
+Static Mesh Browser=(X=4,Y=742,XL=0,YL=0)
+Actor Browser=(X=4,Y=742,XL=0,YL=0)
+Prefab Browser=(X=4,Y=742,XL=0,YL=0)
+Animation Browser=(X=4,Y=742,XL=0,YL=0)
+Mesh Browser=(X=4,Y=742,XL=0,YL=0)
+Load Errors=(X=426,Y=137,XL=491,YL=362)
+Check Map=(X=463,Y=180,XL=418,YL=275)
+Scale Lights=(X=526,Y=263,XL=291,YL=109)
+Tip of the Day=(X=467,Y=181,XL=410,YL=273)
+Progress=(X=491,Y=273,XL=362,YL=89)
+Search for Actors=(X=513,Y=230,XL=318,YL=175)
+Replace Textures=(X=450,Y=133,XL=444,YL=370)
+UDN=(X=0,Y=0,XL=1,YL=1)
+EditorLog=(X=92,Y=49,XL=450,YL=450)
+Find/Replace=(X=285,Y=-74,XL=458,YL=200)
+CodeFrame=(X=150,Y=241,XL=811,YL=738)
+MdiFrameBottom=(X=76,Y=710,XL=1292,YL=36)
+MdiFrameLeft=(X=8,Y=83,XL=68,YL=663)
+MdiFrameTop=(X=8,Y=51,XL=1360,YL=32)
+LevelProperties=(X=841,Y=128,XL=352,YL=512)
+Brush Builder=(X=13,Y=43,XL=345,YL=280)
+Preferences=(X=743,Y=120,XL=352,YL=512)
+FilerPageWelcome=(X=5,Y=96,XL=516,YL=280)
+ProductInfo=(X=907,Y=655,XL=314,YL=98)
+FilerPageLicense=(X=5,Y=96,XL=516,YL=280)
+FilerPageCDKey=(X=5,Y=96,XL=516,YL=280)
+FilerPageFolder=(X=5,Y=96,XL=516,YL=280)
+FilerPageComponents=(X=5,Y=96,XL=516,YL=280)
+FilerPagePreInstall=(X=5,Y=96,XL=516,YL=280)
+FilerPageInstallProgress=(X=5,Y=96,XL=519,YL=281)
+FilerPageAutoPlay=(X=5,Y=96,XL=516,YL=280)
+WizardDialog=(X=695,Y=368,XL=530,YL=436)
+FailedRequirement=(X=49,Y=65,XL=425,YL=261)
+Import Texture=(X=672,Y=286,XL=366,YL=249)
+CrashBox=(X=409,Y=230,XL=542,YL=278)
+ActorProperties.Split=168
+MatineePreview=(X=92,Y=-40,XL=1440,YL=859)
+TimeScrollBar=(X=100,Y=52,XL=1424,YL=17)
+GUIDesigner=(X=1412,Y=1,XL=504,YL=1178)
+LevelProperties.Split=151
+Material Properties=(X=513,Y=128,XL=692,YL=629)
+Generic=(X=730,Y=394,XL=459,YL=308)
+Rename=(X=68,Y=357,XL=308,YL=107)
+Import Static Mesh=(X=39,Y=334,XL=366,YL=153)
+New Material=(X=339,Y=203,XL=594,YL=449)
+
+[GUI2K4.Settings_Tabs]
+bExpert=True
+
+[XWeapons.Redeemer]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=13
+CustomCrosshair=3
+CustomCrossHairColor=(B=128,G=255,R=255,A=255)
+CustomCrossHairScale=2.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Circle2
+
+[XWeapons.Painter]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=12
+CustomCrosshair=3
+CustomCrossHairColor=(B=128,G=255,R=255,A=255)
+CustomCrossHairScale=2.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Circle2
+
+[OnslaughtFull.ONSPainter]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=11
+CustomCrosshair=3
+CustomCrossHairColor=(B=128,G=255,R=255,A=255)
+CustomCrossHairScale=2.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Circle2
+
+[XWeapons.RocketLauncher]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=16
+CustomCrosshair=15
+CustomCrossHairColor=(B=0,G=255,R=0,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Triad2
+
+[XWeapons.FlakCannon]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=14
+CustomCrosshair=15
+CustomCrossHairColor=(B=0,G=255,R=0,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Triad2
+
+[UTClassic.ClassicSniperRifle]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=17
+CustomCrosshair=7
+CustomCrossHairColor=(B=255,G=170,R=185,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Cross1
+
+[XWeapons.SniperRifle]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=10
+CustomCrosshair=7
+CustomCrossHairColor=(B=255,G=170,R=185,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Cross1
+
+[Onslaught.ONSGrenadeLauncher]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=15
+CustomCrosshair=5
+CustomCrossHairColor=(B=255,G=255,R=255,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=ONSInterface-TX.grenadeLauncherReticle
+
+[XWeapons.Minigun]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=9
+CustomCrosshair=15
+CustomCrossHairColor=(B=0,G=255,R=0,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Triad2
+
+[Onslaught.ONSAVRiL]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=8
+CustomCrosshair=15
+CustomCrossHairColor=(B=0,G=255,R=0,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Triad2
+
+[XWeapons.LinkGun]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=7
+CustomCrosshair=15
+CustomCrossHairColor=(B=0,G=255,R=0,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Triad2
+
+[XWeapons.ShockRifle]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=6
+CustomCrosshair=8
+CustomCrossHairColor=(B=255,G=0,R=255,A=255)
+CustomCrossHairScale=1.333000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Cross2
+
+[Onslaught.ONSMineLayer]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=5
+CustomCrosshair=4
+CustomCrossHairColor=(B=255,G=255,R=255,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=ONSInterface-TX.MineLayerReticle
+
+[XWeapons.BioRifle]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=0
+CustomCrosshair=15
+CustomCrossHairColor=(B=0,G=255,R=0,A=255)
+CustomCrossHairScale=1.333000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Triad2
+
+[XWeapons.AssaultRifle]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=4
+CustomCrosshair=15
+CustomCrossHairColor=(B=0,G=255,R=0,A=255)
+CustomCrossHairScale=0.666700
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Triad2
+
+[XWeapons.ShieldGun]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=3
+CustomCrosshair=4
+CustomCrossHairColor=(B=121,G=188,R=255,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=ONSInterface-TX.MineLayerReticle
+
+[XWeapons.Translauncher]
+bPrevWeaponSwitch=True
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=1
+CustomCrosshair=9
+CustomCrossHairColor=(B=255,G=0,R=0,A=255)
+CustomCrossHairScale=1.000000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Cross3
+
+[Engine.PlayerInput]
+MouseSamplingTime=0.008333
+bEnableDodging=True
+bInvertMouse=False
+MouseSmoothingMode=1
+MouseSmoothingStrength=0.300000
+MouseSensitivity=8.000000
+MouseAccelThreshold=0.000000
+DoubleClickTime=0.250000
+
+[XInterface.HudBase]
+bHideWeaponName=False
+bUseCustomWeaponCrosshairs=True
+
+[GUI2K4.UT2K4Tab_MainSP]
+LastSelectedMap=NG-Sandbox
+
+[GUI2K4.UT2K4Tab_MainBase]
+bOnlyShowOfficial=False
+bOnlyShowCustom=False
+MaplistEditorMenu=GUI2K4.MaplistEditor
+
+[GUI2K4.UT2K4Tab_MutatorSP]
+LastActiveMutators=NGWeaponsPackage.NGLoadout
+
+[XGame.xPawn]
+PlacedCharacterName=Jakob
+PlacedFemaleCharacterName=Tamika
+bPlayOwnFootsteps=True
+SelectedEquipment[0]=0
+SelectedEquipment[1]=0
+SelectedEquipment[2]=0
+SelectedEquipment[3]=0
+SelectedEquipment[4]=0
+SelectedEquipment[5]=0
+SelectedEquipment[6]=0
+SelectedEquipment[7]=0
+SelectedEquipment[8]=0
+SelectedEquipment[9]=0
+SelectedEquipment[10]=0
+SelectedEquipment[11]=0
+SelectedEquipment[12]=0
+SelectedEquipment[13]=0
+SelectedEquipment[14]=0
+SelectedEquipment[15]=0
+
+[UnrealGame.UnrealPawn]
+bPlayerShadows=True
+bBlobShadow=False
+
+[XGame.xPlayer]
+bDebuggingVoiceChat=False
+bAutoDemoRec=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+
+[GUI2K4.IAMultiColumnRulesPanel]
+RedSym=TeamSymbols_UT2004.Team.LEVIATHAN
+BlueSym=TeamSymbols_UT2003.Teams.sym12
+bVerticalLayout=False
+
+[OnslaughtFull.ONSHoverTank_IonPlasma]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=600.000000
+
+[OnslaughtFull.ONSTankSecondaryTurretPawn_IonPlasma]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=300.000000
+
+[OnslaughtBP.ONSDualAttackCraft]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=False
+TPCamDistance=500.000000
+
+[Onslaught.ONSRV]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=False
+TPCamDistance=375.000000
+
+[Onslaught.ONSHoverTank]
+CrossHairColor=(B=0,G=255,R=0,A=255)
+CrosshairX=32.000000
+CrosshairY=32.000000
+CrosshairTexture=Texture'ONSInterface-TX.tankBarrelAligned'
+bDesiredBehindView=True
+TPCamDistance=600.000000
+
+[LaserRiflePackage.LaserRifle]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=19
+CustomCrosshair=8
+CustomCrossHairColor=(B=255,G=0,R=255,A=255)
+CustomCrossHairScale=1.333000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Cross2
+
+[LaserPistolPackage.LaserPistol]
+bUseOldWeaponMesh=False
+ExchangeFireModes=0
+Priority=18
+CustomCrosshair=8
+CustomCrossHairColor=(B=255,G=0,R=255,A=255)
+CustomCrossHairScale=1.333000
+CustomCrossHairTextureName=Crosshairs.HUD.Crosshair_Cross2
+
+[XInterface.Browser_ServerListPageFavorites]
+
+[GUI2K4.UT2k4ServerBrowser]
+bStandardServersOnly=False
+CurrentGameType=XGame.xTeamGame
+bPlayerVerified=True
+ServerCache=(GameType="XGame.xTeamGame",SubnetIndex=0,SRL=(ServerID=0,IP="72.245.172.161",Port=0,QueryPort=7778,ServerName="CollegeDate.com/UT2004 Demo",MapName=,GameType="xTeamGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="98.185.53.55",Port=0,QueryPort=7778,ServerName="The Beast's Lair",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+ServerCache=(GameType="Onslaught.ONSOnslaughtGame",SubnetIndex=0,SRL=(ServerID=0,IP="72.5.86.120",Port=0,QueryPort=7778,ServerName="Zirux.com - Torlan",MapName=,GameType="ONSOnslaughtGame",CurrentPlayers=0,MaxPlayers=0,Ping=0,Flags=32,SkillLevel=,ServerInfo=,PlayerInfo=))
+
+[GUI2K4.UT2k4Browser_ServerListPageFavorites]
+RulesListBoxClass=GUI2K4.UT2K4Browser_RulesListBox
+PlayersListBoxClass=GUI2K4.UT2K4Browser_PlayersListBox
+MainSplitterPosition=0.394548
+DetailSplitterPosition=0.460938
+HeaderColumnSizes=(ColumnSizes=(0.096562,0.446875,0.292812,0.110625,0.150000))
+HeaderColumnSizes=(ColumnSizes=(0.564287,0.500000))
+HeaderColumnSizes=(ColumnSizes=(0.340000,0.220000,0.286591,0.220000))
+
+[GUI2K4.UT2k4Browser_ServerListPageLAN]
+RulesListBoxClass=GUI2K4.UT2K4Browser_RulesListBox
+PlayersListBoxClass=GUI2K4.UT2K4Browser_PlayersListBox
+MainSplitterPosition=0.665672
+DetailSplitterPosition=0.460938
+HeaderColumnSizes=(ColumnSizes=(0.096562,0.446875,0.292812,0.110625,0.150000))
+HeaderColumnSizes=(ColumnSizes=(0.564287,0.500000))
+HeaderColumnSizes=(ColumnSizes=(0.340000,0.220000,0.286591,0.220000))
+
+[GUI2K4.UT2k4Browser_ServerListPageBuddy]
+BuddySplitterPosition=0.597582
+BuddyListBoxClass=GUI2K4.UT2K4Browser_BuddyListBox
+RulesListBoxClass=GUI2K4.UT2K4Browser_RulesListBox
+PlayersListBoxClass=GUI2K4.UT2K4Browser_PlayersListBox
+MainSplitterPosition=0.184326
+DetailSplitterPosition=0.319135
+HeaderColumnSizes=(ColumnSizes=(0.096562,0.493471,0.206944,0.102535,0.150000))
+HeaderColumnSizes=(ColumnSizes=(0.498144,0.500000))
+HeaderColumnSizes=(ColumnSizes=(0.473428,0.185665,0.226824,0.220000))
+
+[GUI2K4.UT2k4Browser_ServerListPageInternet]
+PlayCount=9
+ShowAt=10
+RulesListBoxClass=GUI2K4.UT2K4Browser_RulesListBox
+PlayersListBoxClass=GUI2K4.UT2K4Browser_PlayersListBox
+MainSplitterPosition=0.665672
+DetailSplitterPosition=0.460938
+HeaderColumnSizes=(ColumnSizes=(0.096562,0.446875,0.292812,0.110625,0.150000))
+HeaderColumnSizes=(ColumnSizes=(0.564287,0.500000))
+HeaderColumnSizes=(ColumnSizes=(0.340000,0.220000,0.286591,0.220000))
+
+[GUI2K4.Ut2K4Community]
+ModRevLevel=3
+LastModRevLevel=0
+
+[GUI2K4.UT2K4Tab_MutatorMP]
+LastActiveMutators=
+
+[UnrealGame.CinematicPlayer]
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+
+[ApocMatrixMoves_v104.MatrixPlayer]
+bDebuggingVoiceChat=False
+bAutoDemoRec=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+
+[ApocMatrixMoves_v104.MatrixPawn]
+bPlayOwnFootsteps=True
+SelectedEquipment[0]=0
+SelectedEquipment[1]=0
+SelectedEquipment[2]=0
+SelectedEquipment[3]=0
+SelectedEquipment[4]=0
+SelectedEquipment[5]=0
+SelectedEquipment[6]=0
+SelectedEquipment[7]=0
+SelectedEquipment[8]=0
+SelectedEquipment[9]=0
+SelectedEquipment[10]=0
+SelectedEquipment[11]=0
+SelectedEquipment[12]=0
+SelectedEquipment[13]=0
+SelectedEquipment[14]=0
+SelectedEquipment[15]=0
+
+[MutPsychicPowers.PsychicConfigMenu]
+DefaultLeft=0.200000
+DefaultTop=0.200000
+DefaultWidth=0.600000
+DefaultHeight=0.600000
+FadeTime=0.350000
+
+[XInterface.HudCDeathmatch]
+bShowMissingWeaponInfo=True
+CustomHUDHighlightColor=(B=0,G=0,R=0,A=0)
+
+[GUI2K4.UT2K4Tab_ServerRulesPanel]
+bLANServer=True
+RedSym=TeamSymbols_UT2004.Team.LEVIATHAN
+BlueSym=TeamSymbols_UT2003.Teams.sym12
+bVerticalLayout=False
+
+[NG_GUI.NG_GUIController]
+RequestDataMenu=GUI2K4.UT2K4GetDataMenu
+ArrayPropertyMenu=GUI2K4.GUIArrayPropPage
+DynArrayPropertyMenu=GUI2K4.GUIDynArrayPage
+FilterMenu=GUI2K4.UT2K4_FilterListPage
+MapVotingMenu=xVoting.MapVotingPage
+KickVotingMenu=xVoting.KickVotingPage
+MatchSetupMenu=xVoting.MatchConfigPage
+EditFavoriteMenu=GUI2K4.EditFavoritePage
+bFixedMouseSize=False
+NetworkMsgMenu=GUI2K4.UT2K4NetworkStatusMsg
+QuestionMenuClass=GUI2K4.GUI2K4QuestionPage
+AutoLoad=(MenuClassName="GUI2K4.UT2K4InGameChat",bPreInitialize=True)
+
+[NG_GUI.NG_Menu_ServerBrowser]
+CurrentGameType=NG_Game.NG_FreezeTagGame
+bPlayerVerified=True
+
+[NG_Game.NG_Pawn]
+bPlayOwnFootsteps=True
+SelectedEquipment[0]=0
+SelectedEquipment[1]=0
+SelectedEquipment[2]=0
+SelectedEquipment[3]=0
+SelectedEquipment[4]=0
+SelectedEquipment[5]=0
+SelectedEquipment[6]=0
+SelectedEquipment[7]=0
+SelectedEquipment[8]=0
+SelectedEquipment[9]=0
+SelectedEquipment[10]=0
+SelectedEquipment[11]=0
+SelectedEquipment[12]=0
+SelectedEquipment[13]=0
+SelectedEquipment[14]=0
+SelectedEquipment[15]=0
+
+[NG_Game.NG_Player]
+bDebuggingVoiceChat=False
+bAutoDemoRec=False
+EnemyTurnSpeed=45000
+InputClass=Class'Engine.PlayerInput'
+MidGameMenuClass=GUI2K4.UT2K4DisconnectOptionPage
+DemoMenuClass=GUI2K4.UT2K4DemoPlayback
+AdminMenuClass=GUI2K4.RemoteAdmin
+ChatPasswordMenuClass=GUI2K4.UT2K4ChatPassword
+
+[NG_Game.NG_Hud]
+bShow3DArrow=True
+
+[NG_GUI.NG_Menu_Practice]
+m_bLastUseMapBots=False
+m_iLastBotSkill=2
+m_iLastBotCount=1
+m_sLastMap=CapFlag_m2Test
+
+[NG_GUI.NGTab_MainSP]
+LastSelectedMap=NG-Deathmatch
+

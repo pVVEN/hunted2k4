@@ -1,0 +1,392 @@
+Log: Log file open, 05/23/16 23:35:43
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Init: Version: 3369 (128.29)
+Init: Compiled: Nov 23 2005 16:23:34
+Init: Command line: -mod=Hunted
+Init: Character set: Unicode
+Init: Base directory: C:\Program Files (x86)\Steam\steamapps\common\Unreal Tournament 2004\System\
+Init: Ini:..\Hunted\System\Hunted.ini   UserIni:..\Hunted\System\HuntedUser.ini
+Init: Build label:  Build UT2004_Build_[2005-11-23_16.22]
+Init: Object subsystem initialized
+Log: Executing Class Editor.MakeCommandlet
+Heading: ----------------------------Core - Release----------------------------
+Heading: ---------------------------Engine - Release---------------------------
+Heading: ----------------------------Fire - Release----------------------------
+Heading: ---------------------------Editor - Release---------------------------
+Heading: --------------------------UnrealEd - Release--------------------------
+Heading: ---------------------------IpDrv - Release----------------------------
+Heading: ----------------------------UWeb - Release----------------------------
+Heading: --------------------------GamePlay - Release--------------------------
+Heading: -------------------------UnrealGame - Release-------------------------
+Heading: --------------------------XGame_rc - Release--------------------------
+Heading: --------------------------XEffects - Release--------------------------
+Heading: ------------------------XWeapons_rc - Release-------------------------
+Heading: ------------------------XPickups_rc - Release-------------------------
+Heading: --------------------------XPickups - Release--------------------------
+Heading: ---------------------------XGame - Release----------------------------
+Heading: --------------------------XWeapons - Release--------------------------
+Heading: -------------------------XInterface - Release-------------------------
+Heading: ---------------------------XAdmin - Release---------------------------
+Heading: -------------------------XWebAdmin - Release--------------------------
+Heading: --------------------------Vehicles - Release--------------------------
+Heading: -------------------------BonusPack - Release--------------------------
+Heading: -----------------------SkaarjPack_rc - Release------------------------
+Heading: -------------------------SkaarjPack - Release-------------------------
+Heading: -------------------------UTClassic - Release--------------------------
+Heading: ------------------------UT2k4Assault - Release------------------------
+Heading: -------------------------Onslaught - Release--------------------------
+Heading: ---------------------------GUI2K4 - Release---------------------------
+Heading: ----------------------UT2k4AssaultFull - Release----------------------
+Heading: -----------------------OnslaughtFull - Release------------------------
+Heading: --------------------------xVoting - Release---------------------------
+Heading: ------------------------StreamlineFX - Release------------------------
+Heading: --------------------------UTV2004c - Release--------------------------
+Heading: --------------------------UTV2004s - Release--------------------------
+Heading: ------------------------OnslaughtBP - Release-------------------------
+Heading: --------------------------HM_Game - Release---------------------------
+Warning: Failed to load 'HM_Game.u': Can't find file 'HM_Game.u'
+Warning: Failed loading package: Can't find file 'HM_Game.u'
+Log: Analyzing...
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_Bot.uc)
+Log: Class: HM_Bot extends xBot
+Log: Imported: Class HM_Game.HM_Bot
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_Flag.uc)
+Log: Class: HM_Flag extends GameObject
+Log: Imported: Class HM_Game.HM_Flag
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_GameInfo.uc)
+Log: Class: HM_GameInfo extends GameInfo
+Log: Imported: Class HM_Game.HM_GameInfo
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_GameReplicationInfo.uc)
+Log: Class: HM_GameReplicationInfo extends GameReplicationInfo
+Log: Imported: Class HM_Game.HM_GameReplicationInfo
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_HuntedFlagMessage.uc)
+Log: Class: HM_HuntedFlagMessage extends CriticalEventPlus
+Log: Imported: Class HM_Game.HM_HuntedFlagMessage
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_MapList.uc)
+Log: Class: HM_MapList extends MapList
+Log: Imported: Class HM_Game.HM_MapList
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_MutatorLoadout.uc)
+Log: Class: HM_MutatorLoadout extends Mutator
+Log: Imported: Class HM_Game.HM_MutatorLoadout
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_Pawn.uc)
+Log: Class: HM_Pawn extends xPawn
+Log: Imported: Class HM_Game.HM_Pawn
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_Player.uc)
+Log: Class: HM_Player extends xPlayer
+Log: Imported: Class HM_Game.HM_Player
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HM_PlayerReplicationInfo.uc)
+Log: Class: HM_PlayerReplicationInfo extends xPlayerReplicationInfo
+Log: Imported: Class HM_Game.HM_PlayerReplicationInfo
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\HuntedMod.uc)
+Log: Class: HuntedMod extends xBombingRun
+Log: Imported: Class HM_Game.HuntedMod
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Game\Classes\test.uc)
+Log: Class: test extends xTeamGame
+Log: Imported: Class HM_Game.Test
+Log: Parsing HM_GameReplicationInfo
+Log: Parsing HM_PlayerReplicationInfo
+Log: Parsing HM_MutatorLoadout
+Log: Parsing HuntedMod
+Log: Parsing Test
+Log: Parsing HM_GameInfo
+Log: Parsing HM_HuntedFlagMessage
+Log: Parsing HM_MapList
+Log: Parsing HM_Pawn
+Log: Parsing HM_Player
+Log: Parsing HM_Bot
+Log: Parsing HM_Flag
+Log: Compiling HM_GameReplicationInfo
+Log: Compiling HM_PlayerReplicationInfo
+Log: Compiling HM_MutatorLoadout
+Log: Compiling HuntedMod
+Log: Compiling Test
+Log: Compiling HM_GameInfo
+Log: Compiling HM_HuntedFlagMessage
+Log: Compiling HM_MapList
+Log: Compiling HM_Pawn
+Log: Compiling HM_Player
+Log: Compiling HM_Bot
+Log: Compiling HM_Flag
+Log: Importing Defaults for HM_GameReplicationInfo
+Log: Importing Defaults for HM_PlayerReplicationInfo
+Log: Importing Defaults for HM_MutatorLoadout
+Log: Importing Defaults for HuntedMod
+Log: Importing Defaults for Test
+Log: Importing Defaults for HM_GameInfo
+Log: Importing Defaults for HM_HuntedFlagMessage
+Log: Importing Defaults for HM_MapList
+Log: Importing Defaults for HM_Pawn
+Log: Importing Defaults for HM_Player
+Log: Importing Defaults for HM_Bot
+Log: Importing Defaults for HM_Flag
+Log: Success: Compiled 591 line(s), 53 statement(s).
+
+Log: Save=51.326133
+Log: Moving 'Save.tmp' to 'HM_Game.u'
+Heading: -------------------------HM_Weapons - Release-------------------------
+Warning: Failed to load 'HM_Weapons.u': Can't find file 'HM_Weapons.u'
+Warning: Failed loading package: Can't find file 'HM_Weapons.u'
+Log: Analyzing...
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_HuntedGun.uc)
+Log: Class: HM_HuntedGun extends TransLauncher
+Log: Imported: Class HM_Weapons.HM_HuntedGun
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_HuntedGunAltFire.uc)
+Log: Class: HM_HuntedGunAltFire extends ShieldAltFire
+Log: Imported: Class HM_Weapons.HM_HuntedGunAltFire
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_HuntedGunAmmo.uc)
+Log: Class: HM_HuntedGunAmmo extends ShieldAmmo
+Log: Imported: Class HM_Weapons.HM_HuntedGunAmmo
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_HuntedGunAttachment.uc)
+Log: Class: HM_HuntedGunAttachment extends TransAttachment
+Log: Imported: Class HM_Weapons.HM_HuntedGunAttachment
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_HuntedGunFire.uc)
+Log: Class: HM_HuntedGunFire extends ShieldFire
+Log: Imported: Class HM_Weapons.HM_HuntedGunFire
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_HuntedGunPickup.uc)
+Log: Class: HM_HuntedGunPickup extends TransPickup
+Log: Imported: Class HM_Weapons.HM_HuntedGunPickup
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_Medigun.uc)
+Log: Class: HM_Medigun extends LinkGun
+Log: Imported: Class HM_Weapons.HM_Medigun
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MedigunAltFire.uc)
+Log: Class: HM_MedigunAltFire extends AssaultFire
+Log: Imported: Class HM_Weapons.HM_MedigunAltFire
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MedigunAmmo.uc)
+Log: Class: HM_MedigunAmmo extends AssaultAmmo
+Log: Imported: Class HM_Weapons.HM_MedigunAmmo
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MedigunAmmoPickup.uc)
+Log: Class: HM_MedigunAmmoPickup extends AssaultAmmoPickup
+Log: Imported: Class HM_Weapons.HM_MedigunAmmoPickup
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MedigunAttachment.uc)
+Log: Class: HM_MedigunAttachment extends AssaultAttachment
+Log: Imported: Class HM_Weapons.HM_MedigunAttachment
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MedigunBeamChild.uc)
+Log: Class: HM_MedigunBeamChild extends LinkBeamChild
+Log: Imported: Class HM_Weapons.HM_MedigunBeamChild
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MedigunBeamEffect.uc)
+Log: Class: HM_MedigunBeamEffect extends LinkBeamEffect
+Log: Imported: Class HM_Weapons.HM_MedigunBeamEffect
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MedigunFire.uc)
+Log: Class: HM_MedigunFire extends LinkFire
+Log: Imported: Class HM_Weapons.HM_MedigunFire
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MedigunPickup.uc)
+Log: Class: HM_MedigunPickup extends LinkGunPickup
+Log: Imported: Class HM_Weapons.HM_MedigunPickup
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MedigunProjectile.uc)
+Log: Class: HM_MedigunProjectile extends LinkProjectile
+Log: Imported: Class HM_Weapons.HM_MedigunProjectile
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_Minigun.uc)
+Log: Class: HM_Minigun extends Minigun
+Log: Imported: Class HM_Weapons.HM_Minigun
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MinigunAltFire.uc)
+Log: Class: HM_MinigunAltFire extends MinigunAltFire
+Log: Imported: Class HM_Weapons.HM_MinigunAltFire
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MinigunAmmo.uc)
+Log: Class: HM_MinigunAmmo extends MinigunAmmo
+Log: Imported: Class HM_Weapons.HM_MinigunAmmo
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MinigunAmmoPickup.uc)
+Log: Class: HM_MinigunAmmoPickup extends MinigunAmmoPickup
+Log: Imported: Class HM_Weapons.HM_MinigunAmmoPickup
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MinigunAttachment.uc)
+Log: Class: HM_MinigunAttachment extends MinigunAttachment
+Log: Imported: Class HM_Weapons.HM_MinigunAttachment
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MinigunFire.uc)
+Log: Class: HM_MinigunFire extends MinigunFire
+Log: Imported: Class HM_Weapons.HM_MinigunFire
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_MinigunPickup.uc)
+Log: Class: HM_MinigunPickup extends MinigunPickup
+Log: Imported: Class HM_Weapons.HM_MinigunPickup
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_RocketAmmo.uc)
+Log: Class: HM_RocketAmmo extends RocketAmmo
+Log: Imported: Class HM_Weapons.HM_RocketAmmo
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_RocketAmmoPickup.uc)
+Log: Class: HM_RocketAmmoPickup extends RocketAmmoPickup
+Log: Imported: Class HM_Weapons.HM_RocketAmmoPickup
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_RocketAttachment.uc)
+Log: Class: HM_RocketAttachment extends RocketAttachment
+Log: Imported: Class HM_Weapons.HM_RocketAttachment
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_RocketFire.uc)
+Log: Class: HM_RocketFire extends RocketFire
+Log: Imported: Class HM_Weapons.HM_RocketFire
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_RocketLauncher.uc)
+Log: Class: HM_RocketLauncher extends RocketLauncher
+Log: Imported: Class HM_Weapons.HM_RocketLauncher
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_RocketLauncherPickup.uc)
+Log: Class: HM_RocketLauncherPickup extends RocketLauncherPickup
+Log: Imported: Class HM_Weapons.HM_RocketLauncherPickup
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_RocketMultiFire.uc)
+Log: Class: HM_RocketMultiFire extends RocketMultiFire
+Log: Imported: Class HM_Weapons.HM_RocketMultiFire
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_RocketProj.uc)
+Log: Class: HM_RocketProj extends RocketProj
+Log: Imported: Class HM_Weapons.HM_RocketProj
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_SniperAmmo.uc)
+Log: Class: HM_SniperAmmo extends ClassicSniperAmmo
+Log: Imported: Class HM_Weapons.HM_SniperAmmo
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_SniperAmmoPickup.uc)
+Log: Class: HM_SniperAmmoPickup extends ClassicSniperAmmoPickup
+Log: Imported: Class HM_Weapons.HM_SniperAmmoPickup
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_SniperAttachment.uc)
+Log: Class: HM_SniperAttachment extends ClassicSniperAttachment
+Log: Imported: Class HM_Weapons.HM_SniperAttachment
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_SniperFire.uc)
+Log: Class: HM_SniperFire extends ClassicSniperFire
+Log: Imported: Class HM_Weapons.HM_SniperFire
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_SniperRifle.uc)
+Log: Class: HM_SniperRifle extends ClassicSniperRifle
+Log: Imported: Class HM_Weapons.HM_SniperRifle
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_SniperRiflePickup.uc)
+Log: Class: HM_SniperRiflePickup extends ClassicSniperRiflePickup
+Log: Imported: Class HM_Weapons.HM_SniperRiflePickup
+Log: FactoryCreateText: Class with ClassFactoryUC (0 1 ..\HM_Weapons\Classes\HM_SniperSmoke.uc)
+Log: Class: HM_SniperSmoke extends ClassicSniperSmoke
+Log: Imported: Class HM_Weapons.HM_SniperSmoke
+Log: Parsing HM_SniperSmoke
+Log: Parsing HM_MinigunAttachment
+Log: Parsing HM_RocketAttachment
+Log: Parsing HM_MedigunAttachment
+Log: Parsing HM_HuntedGunAttachment
+Log: Parsing HM_SniperAttachment
+Log: Parsing HM_RocketAmmo
+Log: Parsing HM_MinigunAmmo
+Log: Parsing HM_HuntedGunAmmo
+Log: Parsing HM_MedigunAmmo
+Log: Parsing HM_SniperAmmo
+Log: Parsing HM_Medigun
+Log: Parsing HM_HuntedGun
+Log: Parsing HM_RocketLauncher
+Log: Parsing HM_Minigun
+Log: Parsing HM_SniperRifle
+Log: Parsing HM_RocketAmmoPickup
+Log: Parsing HM_MinigunAmmoPickup
+Log: Parsing HM_MedigunAmmoPickup
+Log: Parsing HM_SniperAmmoPickup
+Log: Parsing HM_RocketLauncherPickup
+Log: Parsing HM_MedigunPickup
+Log: Parsing HM_MinigunPickup
+Log: Parsing HM_HuntedGunPickup
+Log: Parsing HM_SniperRiflePickup
+Log: Parsing HM_RocketProj
+Log: Parsing HM_MedigunProjectile
+Log: Parsing HM_MedigunBeamEffect
+Log: Parsing HM_MedigunBeamChild
+Log: Parsing HM_MedigunFire
+Log: Parsing HM_RocketMultiFire
+Log: Parsing HM_RocketFire
+Log: Parsing HM_HuntedGunFire
+Log: Parsing HM_MinigunAltFire
+Log: Parsing HM_MinigunFire
+Log: Parsing HM_MedigunAltFire
+Log: Parsing HM_SniperFire
+Log: Parsing HM_HuntedGunAltFire
+Log: Compiling HM_SniperSmoke
+Log: Compiling HM_MinigunAttachment
+Log: Compiling HM_RocketAttachment
+Log: Compiling HM_MedigunAttachment
+Log: Compiling HM_HuntedGunAttachment
+Log: Compiling HM_SniperAttachment
+Log: Compiling HM_RocketAmmo
+Log: Compiling HM_MinigunAmmo
+Log: Compiling HM_HuntedGunAmmo
+Log: Compiling HM_MedigunAmmo
+Log: Compiling HM_SniperAmmo
+Log: Compiling HM_Medigun
+Log: Compiling HM_HuntedGun
+Log: Compiling HM_RocketLauncher
+Log: Compiling HM_Minigun
+Log: Compiling HM_SniperRifle
+Log: Compiling HM_RocketAmmoPickup
+Log: Compiling HM_MinigunAmmoPickup
+Log: Compiling HM_MedigunAmmoPickup
+Log: Compiling HM_SniperAmmoPickup
+Log: Compiling HM_RocketLauncherPickup
+Log: Compiling HM_MedigunPickup
+Log: Compiling HM_MinigunPickup
+Log: Compiling HM_HuntedGunPickup
+Log: Compiling HM_SniperRiflePickup
+Log: Compiling HM_RocketProj
+Log: Compiling HM_MedigunProjectile
+Log: Compiling HM_MedigunBeamEffect
+Log: Compiling HM_MedigunBeamChild
+Log: Compiling HM_MedigunFire
+Log: Compiling HM_RocketMultiFire
+Log: Compiling HM_RocketFire
+Log: Compiling HM_HuntedGunFire
+Log: Compiling HM_MinigunAltFire
+Log: Compiling HM_MinigunFire
+Log: Compiling HM_MedigunAltFire
+Log: Compiling HM_SniperFire
+Log: Compiling HM_HuntedGunAltFire
+Log: Importing Defaults for HM_SniperSmoke
+Log: Importing Defaults for HM_MinigunAttachment
+Log: Importing Defaults for HM_RocketAttachment
+Log: Importing Defaults for HM_MedigunAttachment
+Log: Importing Defaults for HM_HuntedGunAttachment
+Log: Importing Defaults for HM_SniperAttachment
+Log: Importing Defaults for HM_RocketAmmo
+Log: Importing Defaults for HM_MinigunAmmo
+Log: Importing Defaults for HM_HuntedGunAmmo
+Log: Importing Defaults for HM_MedigunAmmo
+Log: Importing Defaults for HM_SniperAmmo
+Log: Importing Defaults for HM_Medigun
+Log: Importing Defaults for HM_HuntedGun
+Log: Importing Defaults for HM_RocketLauncher
+Log: Importing Defaults for HM_Minigun
+Log: Importing Defaults for HM_SniperRifle
+Log: Importing Defaults for HM_RocketAmmoPickup
+Log: Importing Defaults for HM_MinigunAmmoPickup
+Log: Importing Defaults for HM_MedigunAmmoPickup
+Log: Importing Defaults for HM_SniperAmmoPickup
+Log: Importing Defaults for HM_RocketLauncherPickup
+Log: Importing Defaults for HM_MedigunPickup
+Log: Importing Defaults for HM_MinigunPickup
+Log: Importing Defaults for HM_HuntedGunPickup
+Log: Importing Defaults for HM_SniperRiflePickup
+Log: Importing Defaults for HM_RocketProj
+Log: Importing Defaults for HM_MedigunProjectile
+Log: Importing Defaults for HM_MedigunBeamEffect
+Log: Importing Defaults for HM_MedigunBeamChild
+Log: Importing Defaults for HM_MedigunFire
+Log: Importing Defaults for HM_RocketMultiFire
+Log: Importing Defaults for HM_RocketFire
+Log: Importing Defaults for HM_HuntedGunFire
+Log: Importing Defaults for HM_MinigunAltFire
+Log: Importing Defaults for HM_MinigunFire
+Log: Importing Defaults for HM_MedigunAltFire
+Log: Importing Defaults for HM_SniperFire
+Log: Importing Defaults for HM_HuntedGunAltFire
+Log: Success: Compiled 126 line(s), 38 statement(s).
+
+Log: Save=45.767505
+Log: Moving 'Save.tmp' to 'HM_Weapons.u'
+Log: Game exported successfully: HM_Game.HM_GameInfo
+Log: Mutator exported successfully: HM_Game.HM_MutatorLoadout
+Log: Game exported successfully: HM_Game.HuntedMod
+Log: Game exported successfully: HM_Game.Test
+Log: Weapon exported successfully: HM_Weapons.HM_HuntedGun
+Log: Weapon exported successfully: HM_Weapons.HM_Medigun
+Log: Weapon exported successfully: HM_Weapons.HM_Minigun
+Log: Weapon exported successfully: HM_Weapons.HM_RocketLauncher
+Log: Weapon exported successfully: HM_Weapons.HM_SniperRifle
+Log: Success - 0 error(s), 0 warning(s)
+Exit: Preparing to exit.
+Log: Purging garbage
+Log: Unbound to Core.dll
+Log: Unbound to Editor.dll
+Log: Unbound to Engine.dll
+Exit: Editor shut down
+Log: Unbound to Fire.dll
+Log: Unbound to IpDrv.dll
+Log: Unbound to UWeb.dll
+Log: Unbound to XGame.dll
+Log: Unbound to XInterface.dll
+Log: Unbound to Onslaught.dll
+Log: Garbage: objects: 74072->0; refs: 0
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Log: FileManager: Reading 0 GByte 112 MByte 811 KByte 978 Bytes from HD took 2.009020 seconds (1.650021 reading, 0.358999 seeking).
+Log: FileManager: 0.718995 seconds spent with misc. duties
+Uninitialized: Name subsystem shut down
+Uninitialized: Allocation checking disabled
+Uninitialized: Log file closed, 05/23/16 23:35:51

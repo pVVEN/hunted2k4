@@ -1,0 +1,10 @@
+class HM_HuntedGunAttachment extends BallAttachment;
+
+defaultproperties
+{
+    Mesh=mesh'Weapons.BallLauncher_3rd'
+    bHeavy=true
+    bRapidFire=false
+    bAltRapidFire=false
+}
+ 

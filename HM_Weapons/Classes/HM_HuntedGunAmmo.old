@@ -1,0 +1,9 @@
+class HM_HuntedGunAmmo extends BallAmmo;
+
+defaultproperties
+{
+    PickupClass=None
+    MaxAmmo=1
+    InitialAmount=1
+    ItemName="HM_HuntedGunAmmo"
+}

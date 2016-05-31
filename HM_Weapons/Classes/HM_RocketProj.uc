@@ -1,0 +1,43 @@
+class HM_RocketProj extends RocketProj;
+
+defaultproperties
+{
+    speed=1350.0
+    MaxSpeed=1350.0
+    Damage=90.0
+    DamageRadius=220.0
+    MomentumTransfer=50000
+    MyDamageType=class'DamTypeRocket'
+    ExplosionDecal=class'RocketMark'
+    RemoteRole=ROLE_SimulatedProxy
+    LifeSpan=8.0
+    AmbientSound=Sound'WeaponSounds.RocketLauncher.RocketLauncherProjectile'
+    SoundVolume=255
+    SoundRadius=100
+    DrawType=DT_StaticMesh
+    StaticMesh=StaticMesh'WeaponStaticMesh.RocketProj'
+    DrawScale=1.0
+    AmbientGlow=96
+    bUnlit=True
+    LightType=LT_Steady
+    LightEffect=LE_QuadraticNonIncidence
+    LightBrightness=255
+    LightHue=28
+    LightRadius=5
+    bDynamicLight=true
+    bBounce=false
+    bFixedRotationDir=True
+    RotationRate=(Roll=50000)
+    DesiredRotation=(Roll=30000)
+    ForceType=FT_Constant
+    ForceScale=5.0
+    ForceRadius=100.0
+    bCollideWorld=true
+    FluidSurfaceShootStrengthMod=10.0
+
+    FlockRadius=12
+    FlockStiffness=-40
+    FlockMaxForce=600
+    FlockCurlForce=450
+    CullDistance=+7500.0
+}
