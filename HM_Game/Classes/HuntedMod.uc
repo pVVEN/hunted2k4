@@ -153,8 +153,5 @@ defaultproperties
     Description="The Hunted must get from one end of the level to the other. His or her teammates must protect them. Assassins must kill them."
 
      BRHints(0)="You can use %BASEPATH 0% to see the path to the Red Team base and %BASEPATH 1% to see the path to the Blue Team base."
-     BRHints(1)="Firing the translocator sends out your translocator beacon.  Pressing %FIRE% again returns the beacon, while pressing %A:TFIRE% teleports you instantly to the beacon's location (if you fit)."
-     BRHints(2)="While carrying the ball, you can target teammates by pressing %ALTFIRE%.  Pressing %FIRE% will pass the ball to the targeted teammate."
-     BRHints(3)="Pressing %SWITCHWEAPON 10% after tossing the Translocator allows you to view from its internal camera."
-     BRHints(4)="Pressing %FIRE% while your %ALTFIRE% is still held down after teleporting with the translocator will switch you back to your previous weapon."
+     BRHints(1)="As the Hunted, your only weapon is the air compressor gun."
 }
