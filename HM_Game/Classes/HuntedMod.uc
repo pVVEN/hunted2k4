@@ -2,6 +2,8 @@ class HuntedMod extends xBombingRun;
 
 var HM_Flag hmFlag;
 
+var(LoadingHints) private localized array<string> HNTHints;
+
 /*
 simulated function BeginPlay()
 {
@@ -104,6 +106,20 @@ function StartMatch()
     }
 }
 
+static function array<string> GetAllLoadHints(optional bool bThisClassOnly)
+{
+    local int i;
+    local array<string> Hints;
+
+    if ( !bThisClassOnly || default.HNTHints.Length == 0 )
+        Hints = Super.GetAllLoadHints();
+
+    for ( i = 0; i < default.HNTHints.Length; i++ )
+        Hints[Hints.Length] = default.HNTHints[i];
+
+    return Hints;
+}
+
 defaultproperties
 {
 	bDefaultTranslocator=false
@@ -152,6 +168,6 @@ defaultproperties
 
     Description="The Hunted must get from one end of the level to the other. His or her teammates must protect them. Assassins must kill them."
 
-     BRHints(0)="You can use %BASEPATH 0% to see the path to the Red Team base and %BASEPATH 1% to see the path to the Blue Team base."
-     BRHints(1)="As the Hunted, your only weapon is the air compressor gun."
+     HNTHints(0)="You can use %BASEPATH 0% to see the path to the Red Team base and %BASEPATH 1% to see the path to the Blue Team base."
+     HNTHints(1)="As the Hunted, your only weapon is the air compressor gun."
 }
